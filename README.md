@@ -7,13 +7,18 @@ Welcome to this weather website! This project was developed as part of the IEEE 
 Feel free to explore the website and check the weather conditions for your city or any other place you're interested in.
 
 ### Sample Images :
-![image](https://github.com/user-attachments/assets/6fe438e2-a518-4f56-891b-42ea2b59c846)
 
-![image](https://github.com/user-attachments/assets/749d961d-fd37-4cc3-a9f0-767d7406ce50)
+![image](https://github.com/user-attachments/assets/81ca37d1-8603-4d90-b8a0-f18662d48134)
 
-![image](https://github.com/user-attachments/assets/c1dab4c1-8428-4931-8e0f-056e53ffce14)
 
-![image](https://github.com/user-attachments/assets/6a0105cc-0f03-49ff-82e3-62c63a4e6987)
+![image](https://github.com/user-attachments/assets/d163f381-9fdd-403d-9a60-cd5f41f7d107)
+
+
+![image](https://github.com/user-attachments/assets/a2400842-46bf-49c7-b320-592a9d088413)
+
+
+![image](https://github.com/user-attachments/assets/27ed1880-9bf6-4ee9-9c0c-0cc7eee8721c)
+
 
 
 
