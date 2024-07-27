@@ -1,21 +1,27 @@
 * {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+   
     font-family: "K2D", sans-serif;
     text-align: left;
     color: rgb(40, 35, 35);
 }
 
-body{
+body{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-image: url(backgroundimages/IEEE\ project3back.jpg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
+    color: rgb(231, 225, 225);
 }
 
-#outer-div {
+#outer-div { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 20px;
     width: 480px;
     height: 640px;
@@ -39,6 +45,10 @@ body{
     height: 8%;
 }
 #div-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     padding-left: 20px;
     width: 70%;
     height: 70%;
@@ -49,6 +59,10 @@ body{
 }
 
 #div-1-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 10%;
     height: 80%;
     border-radius: 50%;
@@ -65,7 +79,17 @@ body{
     width: 92%;
     height: 60%;
 }
+#div-2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 #div-2-2,#div-2-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     color: rgb(231, 225, 225);
     font-size: 3rem;
 }
