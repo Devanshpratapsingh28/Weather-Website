@@ -1,0 +1,204 @@
+* {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "K2D", sans-serif;
+    text-align: left;
+    color: rgb(40, 35, 35);
+}
+
+body{
+    background-image: url(backgroundimages/IEEE\ project3back.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#outer-div {
+    margin-top: 20px;
+    width: 480px;
+    height: 640px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    /* border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, rgb(130, 227, 238)) 1;
+    animation: borderMove 2s linear infinite; */
+}
+
+
+#div-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 92%;
+    height: 8%;
+}
+#div-1-1{
+    padding-left: 20px;
+    width: 70%;
+    height: 70%;
+    font-size: large;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+}
+
+#div-1-2{
+    width: 10%;
+    height: 80%;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+}
+
+#div-2 {
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+    align-content:space-between ;
+    width: 92%;
+    height: 60%;
+}
+#div-2-2,#div-2-3{
+    color: rgb(231, 225, 225);
+    font-size: 3rem;
+}
+
+#div-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 92%;
+    height: 12%;
+}
+
+#div-3-1,
+#div-3-2 {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*align-items: center; */
+}
+
+#div-3-1-2,#div-3-2-2{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    font-size: large;
+    color: rgb(231, 225, 225);
+}
+
+@media (max-width: 784px) {
+    #div-1 {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    #div-1-1 {
+        width: 80%;
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    #div-1-2 {
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+    }
+
+    #div-2-2, #div-2-3 {
+        font-size: 2.2rem;
+        color: rgb(40, 35, 35);
+    }
+
+    #div-3 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    #div-3-1, #div-3-2 {
+        width: 45%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #div-3-1-2, #div-3-2-2 {
+        font-size: 1.2rem;
+        color: rgb(40, 35, 35);
+    }
+}
+
+@media (max-width: 480px) {
+   
+    #outer-div {
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    #div-1 {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        margin: 2px;
+    }
+
+    #div-1-1 {
+        width: 70%;
+        font-size: 1rem;
+        padding: 6px;
+        border-radius: 20px;
+    }
+
+    #div-1-2 {
+        width: 40px;
+        height: 40px;
+        margin-left: 5px;
+    }
+
+    #div-2-2, #div-2-3 {
+        font-size: 2.1em;
+        color: rgb(40, 35, 35);
+    }
+
+    #div-3 {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px 0; /* Optional: Add some vertical padding */
+    }
+
+    #div-3-1, #div-3-2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 0; /* Optional: Add some vertical padding */
+    }
+
+    #div-3-1-2, #div-3-2-2 {
+        font-size: 1.3rem;
+        color: rgb(40, 35, 35);
+    }
+}
+
+
