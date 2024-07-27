@@ -2,9 +2,10 @@ const apikey = "6387c0f728d45a1a2d1f2959cef25678";
         const apiurl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
         let cityElement = document.querySelector("#div-2-3");
-        let temperatureElement = document.querySelector("#div-2-2");
-        let windspeedElement = document.querySelector("#windspeed");
-        let humidityElement = document.querySelector("#humidity");
+        let temperature = document.querySelector("#div-2-2");
+        let windspeed = document.querySelector("#windspeed");
+        let humidity = document.querySelector("#humidity");
+        let pressure = document.querySelector("#pressure");
         let searchButton = document.querySelector("#div-1-2");
         let inputBox = document.querySelector("#div-1-1");
         let weathericon=document.querySelector("#div-2-1 img");
@@ -18,10 +19,11 @@ const apikey = "6387c0f728d45a1a2d1f2959cef25678";
                 const data = await response.json();
 
                 cityElement.textContent = data.name;
-                temperatureElement.textContent = `${Math.round(data.main.temp)}°C`;
-                windspeedElement.textContent = `${data.wind.speed} km/h`;
-                humidityElement.textContent = `${data.main.humidity}%`;
-
+                temperature.textContent = `${Math.round(data.main.temp)}°C`;
+                windspeed.textContent = `${data.wind.speed} km/h`;
+                humidity.textContent = `${data.main.humidity}%`;
+                let pressureatm=data.main.pressure/1013.25;
+                pressure.textContent=`${pressureatm.toFixed(2)} atm`;
                 let val=data.weather[0].main;
                 weathericon.src='clouds.png';
                 if(val==='Clouds'){
