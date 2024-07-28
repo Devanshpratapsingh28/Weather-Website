@@ -1,13 +1,14 @@
 * {
-   
+    margin: 0px;
+    padding: 0px;
     font-family: "K2D", sans-serif;
-    text-align: left;
 }
 
-body{ 
+body{
+    width: 100%;
+    height: 100vh; 
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-image: url(backgroundimages/IEEE\ project3back.jpg);
     background-size: cover; 
